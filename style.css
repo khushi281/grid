@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: auto;
+    display: grid;
+     grid-template-columns: repeat(3,1fr); 
+    grid-template-rows: repeat(3,1fr);
+    background-color: black;
+    gap: 10px;
+
+}
+.box{
+     height: 250px;
+    width: 100;
+    background-color: aqua;
+    border: 1px solid red;
+}
